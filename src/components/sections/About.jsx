@@ -114,7 +114,7 @@ const About = () => {
                     Processed 200+ documents daily with speed and accuracy using
                     CRA internal systems.
                   </p>
-
+                  {/*
                   <li className="font-bold">
                     Youth Mentor at Ma Mawi Wi Chi Itata Centre (2018-2019)
                   </li>
@@ -123,6 +123,7 @@ const About = () => {
                     Maintained safety and cared for 10+ youth while managing
                     conflict and behavioral challenges.
                   </p>
+                  */}
                 </ul>
               </div>
             </div>

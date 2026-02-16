@@ -88,66 +88,6 @@ const Projects = () => {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
-              <h3 className="text-xl font-bold mb-2">Auction Platform App</h3>
-              <p className="text-gray-400 mb-4">
-                Online auction web app allowing users to create listings, place
-                bids, comment, and manage a watchlist.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "Django", "SQLite", "HTML", "CSS", "Bootstrap"].map(
-                  (item, key) => (
-                    <span
-                      key={key}
-                      className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
-                    >
-                      {item}
-                    </span>
-                  ),
-                )}
-              </div>
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/saraccmululo/auction_platform_app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
-            </div>
-
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
-              <h3 className="text-xl font-bold mb-2">Email Client App</h3>
-              <p className="text-gray-400 mb-4">
-                Single-page email app with inbox, sent, and archive mailboxes,
-                supporting sending, replying, and archiving messages.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["JavaScript", "HTML", "CSS", "Bootstrap", "RESTful APIs"].map(
-                  (item, key) => (
-                    <span
-                      key={key}
-                      className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
-                    >
-                      {item}
-                    </span>
-                  ),
-                )}
-              </div>
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/saraccmululo/email-client-app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
-            </div>
-
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
               <h3 className="text-xl font-bold mb-2">PlanAhead App</h3>
               <p className="text-gray-400 mb-4">
                 Digital calendar app where authenticated users can view and
@@ -209,6 +149,96 @@ const Projects = () => {
               <div className="flex justify-between items-center">
                 <a
                   href="https://saraccmululo.github.io/plant-pals-web-app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
+              <h3 className="text-xl font-bold mb-2">Plant Pals Web App</h3>
+              <p className="text-gray-400 mb-4">
+                Fully responsive website for a yoga studio with contact form
+                integration via EmailJS and dynamic event listings.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Next.js", "JavaScript", "Tailwind CSS", "EmailJS"].map(
+                  (item, key) => (
+                    <span
+                      key={key}
+                      className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
+                    >
+                      {item}
+                    </span>
+                  ),
+                )}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://maha-ganapati-yoga.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
+              <h3 className="text-xl font-bold mb-2">Auction Platform App</h3>
+              <p className="text-gray-400 mb-4">
+                Online auction web app allowing users to create listings, place
+                bids, comment, and manage a watchlist.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Python", "Django", "SQLite", "HTML", "CSS", "Bootstrap"].map(
+                  (item, key) => (
+                    <span
+                      key={key}
+                      className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
+                    >
+                      {item}
+                    </span>
+                  ),
+                )}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/saraccmululo/auction_platform_app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-[#915c4f]/50 hover: shadow-[0_2px_8px_rgba(145,92,79,0.1)] transition-all ">
+              <h3 className="text-xl font-bold mb-2">Email Client App</h3>
+              <p className="text-gray-400 mb-4">
+                Single-page email app with inbox, sent, and archive mailboxes,
+                supporting sending, replying, and archiving messages.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["JavaScript", "HTML", "CSS", "Bootstrap", "RESTful APIs"].map(
+                  (item, key) => (
+                    <span
+                      key={key}
+                      className="bg-[#915c4f] text-white py-1 px-3 rounded-full text-sm hover:bg-[#915c4f]/50 hover:shadow-[0_2px_8px_rgba(145,92,79,0.2)] transition"
+                    >
+                      {item}
+                    </span>
+                  ),
+                )}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://github.com/saraccmululo/email-client-app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#b3472c] hover:text-[#915c4f] transition-colors my-4"
