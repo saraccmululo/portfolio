@@ -2,7 +2,7 @@ import RevealOnScroll from "../RevealOnScroll";
 
 const About = () => {
   const frontendSkills = ["JavaScript", "React", "HTML", "CSS", "TailwindCSS", "Bootstrap"];
-  const backendSkills = ["Python", "Django", "Flask", "MySQL", "SQLite", "RESTful APIs"];
+  const backendSkills = ["Python", "Django", "Flask", "Java", "Spring Boot", "MySQL", "SQLite", "RESTful APIs"];
   return (
     <section
       id="about"
@@ -56,11 +56,14 @@ const About = () => {
               <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>
-                    Harvard University CS50 Courses - Web Programming with
-                    Python and JavaScript, Database with SQL, Python
-                    Programming, Computer Science Introduction
-                  </strong>
+                  <strong>Harvard University CS50 Program:</strong>
+                  <ul className="list-none list-inside ml-4 text-gray-300 space-y-1">
+                    <li>*Computer Science Introduction.</li>
+                    <li>*Web Programming with Python and JavaScript.</li>
+                    <li>*Database with SQL.</li>
+                    <li>*Python Programming.</li>
+                    
+                  </ul>
                   - Harvard University (2025-2026)
                 </li>
                 {/* 
