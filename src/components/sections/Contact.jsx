@@ -19,6 +19,8 @@ const Contact = () => {
     try {
       setIsLoading(true);
       setFeedbackMessage("");
+      console.log(data);
+      
        await emailjs.sendForm(
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,

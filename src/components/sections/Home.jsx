@@ -13,7 +13,7 @@ const Home = () => {
             Hi, I'm Sara CCM
           </h1>
           <p className="text-white text-lg mb-8 max-w-lg mx-auto">
-            I'm a software developer specialized in building responsive,
+            I'm a full-stack software developer specialized in building responsive,
             user-friendly websites and creating innovative solutions that make
             an impact.
           </p>
